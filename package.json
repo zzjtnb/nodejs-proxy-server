@@ -1,0 +1,29 @@
+{
+  "name": "nodejs-proxy-server",
+  "version": "1.0.0",
+  "description": "一个基于express结合http-proxy-middleware配置生成一个反向代理服务器，主要用于解决跨域问题",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "publish": "npm publish"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zzjtnb/nodejs-proxy-server.git"
+  },
+  "bugs": {
+    "url": "https://github.com/zzjtnb/nodejs-proxy-server/issues"
+  },
+  "homepage": "hhttps://github.com/zzjtnb/nodejs-proxy-server#readme",
+  "keywords": [
+    "跨域、proxy"
+  ],
+  "author": "争逐",
+  "license": "MIT",
+  "dependencies": {
+    "chalk": "^4.1.1",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "http-proxy-middleware": "^2.0.0"
+  }
+}
