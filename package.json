@@ -1,6 +1,6 @@
 {
   "name": "nodejs-proxy-server",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "description": "一个基于express结合http-proxy-middleware配置生成一个反向代理服务器，主要用于解决跨域问题",
   "main": "index.js",
   "scripts": {

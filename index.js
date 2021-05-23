@@ -34,7 +34,7 @@ function nodeProxyServer(apipath, targethost, proxyport) {
     target: targethost,  //需要代理的目标服务器
     changeOrigin: true,  //否需要改变原始主机头为目标URL,是否进行代理
     ws: true,  //是否代理websockets,
-    pathRewrite: pathRewrite, //路径重写
+    pathRewrite: pathRewrites, //路径重写
   }
   const { createProxyMiddleware } = require('http-proxy-middleware');
   app.use(apipath, createProxyMiddleware(options));
